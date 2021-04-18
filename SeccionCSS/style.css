@@ -1,0 +1,16 @@
+/*Por nombre de etiqueta*/
+h1 {
+    color: purple;
+    font-size: 35px;
+}
+
+.introduccion{
+    color: blueviolet;
+    font-size: 20px;
+}
+
+#conclusion{
+    color: #db0930;
+    font-size: 25px;
+}
+
