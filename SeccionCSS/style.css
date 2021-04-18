@@ -1,4 +1,4 @@
-/*Por nombre de etiqueta*/
+/*Por nombre de etiqueta
 h1 {
     color: purple;
     font-size: 35px;
@@ -12,5 +12,22 @@ h1 {
 #conclusion{
     color: #db0930;
     font-size: 25px;
+}*/
+
+.part-nav {
+    margin-top: 10px; /* Margen superior */
+    list-style: none; /* Quitar el punto o número de las listas*/
+    padding-left: 0; /* Padding es el espacio interno de un cuadro */
+    background-color: #13a4a4;
 }
 
+.part-nav__item {
+    display: inline-block; /*Para que se vean horizontal y no vertical las listas*/
+}
+
+.part-nav__item a {
+    color: snow;
+    padding: 5px;
+    border-radius: 2px;
+    text-decoration: none; /* Para quitar el subrayado +/
+}
