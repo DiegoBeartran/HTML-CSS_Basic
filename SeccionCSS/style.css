@@ -29,5 +29,16 @@ h1 {
     color: snow;
     padding: 5px;
     border-radius: 2px;
-    text-decoration: none; /* Para quitar el subrayado +/
+    text-decoration: none; /* Para quitar el subrayado */
+}
+
+.part-nav__item a:hover { /* Pseudo clase */
+    color: blueviolet;
+}
+
+.part-nav__item a::before { /* Pseudo elementos */
+    content: "| ";
+}
+.part-nav__item a::after {
+    content: " |";
 }
