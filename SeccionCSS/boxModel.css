@@ -1,0 +1,13 @@
+/*El asterisco funciona como modificador global*/
+* {
+    box-sizing: border-box; /*Ajuste de pantalla y no tener que hacer scroll horizontal*/
+    padding: 0; /*Para eliminar espacio en blanco en el navegador*/
+    margin: 0;
+}
+
+main {
+    width: 100%;
+    height: 500px;
+    border: 10px solid grey;
+    padding: 20px 35px;
+}

@@ -39,6 +39,7 @@ h1 {
 .part-nav__item a::before { /* Pseudo elementos */
     content: "| ";
 }
+
 .part-nav__item a::after {
     content: " |";
 }
