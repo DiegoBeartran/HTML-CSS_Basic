@@ -8,28 +8,27 @@ h1{
     color: blueviolet;
     margin-bottom: 10px;
 }
-#page-title {
-    font-family: Arial, Helvetica, sans-serif; /*Este ID borra el font-family declarado en el h1 y en la clase*/
-}
+
 .title{
     font-size: 20px;
     font-family: monospace;
 }
-#main-nav {
+
+.nav {
     margin-top: 10px;
     list-style: none;
     padding-left: 0px;
 }
-#main-nav li {
+.nav li {
     display: inline-block;
 }
-#main-nav a {
+.nav a {
     color: white;
     background-color: #db0930;
     padding: 5px;
     border-radius: 2px;
     text-decoration: none;
 }
-#main-nav .contacto{
-    background-color: orange;
+.nav .contacto {
+    background-color: mediumaquamarine;
 }
