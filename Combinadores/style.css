@@ -7,3 +7,11 @@ h4 ~ p {
     font-size: 15px;
     color: mediumpurple;
 }
+
+div > h5 {
+    color: goldenrod;
+}
+
+div article {
+    color:hotpink;
+}
