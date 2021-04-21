@@ -1,0 +1,4 @@
+h2 + p { /*Toda etiqueta p después de un H2, aplicar este estilo (Hermano Adyacente)*/
+    font-size: 15px;
+    color: blue;
+}
