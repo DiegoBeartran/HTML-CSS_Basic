@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#one{
+    width: 600px;
+    height: 200px;
+    background-color: coral;
+    position: sticky;
+    top: 0.1%
+}
+
+#two{
+    width: 100px;
+    height: 600px;
+    background-color: darkmagenta;
+}
+
+#three{
+    width: 100px;
+    height: 600px;
+    background-color:lawngreen ;
+}
+
+#four{
+    width: 100px;
+    height: 600px;
+    background-color:pink;
+}
