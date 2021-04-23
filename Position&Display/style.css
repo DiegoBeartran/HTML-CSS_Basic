@@ -5,11 +5,11 @@
 }
 
 #one{
-    width: 600px;
-    height: 200px;
+    width: 100vh;
+    height: 30px;
     background-color: coral;
     position: sticky;
-    top: 0.1%
+    top: 0.000000001%
 }
 
 #two{

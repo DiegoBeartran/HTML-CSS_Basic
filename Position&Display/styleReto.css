@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62,5%;
+}
+
+.container {
+    border: orange 3px solid;
+    border-radius: 10px;
+    margin: 5% 20%;
+}
+
+h2 {
+    font-size: 2.5rem;
+    margin: 1rem;
+    position: relative;
+}
+
+figure {
+    position: relative;
+    left: 7%;
+}
+
+p {
+    font-size: 2rem;
+    padding: 2px;
+    margin-left: 2px;
+}
