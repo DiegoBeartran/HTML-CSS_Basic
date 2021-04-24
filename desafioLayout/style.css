@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    border: solid 5px red;
+}
+
+.logo {
+    display: inline-block;
+    width: 25%;
+    min-width: 100px;
+    padding-left: 10px;
+    background-color: palegoldenrod;
+}
+
+.navBar {
+    display: inline-block;
+    position: absolute;
+    right: 10px;
+}
+
+.navLinks {
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+    margin: 0;
+    padding: 0 20px;
+}
+
+main {
+    border: solid 5px blue;
+}
+footer {
+    border: solid 5px orangered;
+}
