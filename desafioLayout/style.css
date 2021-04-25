@@ -36,7 +36,7 @@ header {
 
 main {
     border: solid 5px blue;
-    height: 70vh;
+    height: 85vh;
 }
 
 .recuadroIzquierdo {
@@ -59,4 +59,6 @@ main {
 
 footer {
     border: solid 5px orangered;
+    height: 100vh;
+    max-height: 15%;
 }
