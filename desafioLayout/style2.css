@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    background-color: black;
+}
+
+body { /*Temporal*/
+    font-size: 1.8rem;
+}
+
+header {
+    display: flex;
+    background-color: darkorange;
+    color: darkslategray;
+    position: sticky;
+    top: 0rem;
+}
+
+.logo {
+    width: 10rem;
+    min-width: 15%;
+    text-align: center;
+}
+
+.navBar {
+    flex-grow: 1;
+}
+
+.navBar__ul {
+    position: absolute;
+    right: 0;
+}
+
+.navBar__li {
+    list-style: none;
+    display: inline-block;
+    width: 9rem;
+    min-width: 7.5rem;
+    text-align: center;
+    margin: 0 0.5rem;
+    padding: 0 1rem;
+}
+p { /*temporal*/
+    color: snow;
+}
+footer {
+    position: sticky;
+    bottom: 0;
+    background-color: greenyellow;
+}
+
+footer p{
+    color: orangered;
+}
