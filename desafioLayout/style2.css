@@ -6,7 +6,7 @@
 
 html {
     font-size: 62.5%;
-    background-color: black;
+    background-color: #394A3B;
 }
 
 body { /*Temporal*/
@@ -15,8 +15,8 @@ body { /*Temporal*/
 
 header {
     display: flex;
-    background-color: darkorange;
-    color: darkslategray;
+    background-color: #129423;
+    color: snow;
     position: sticky;
     top: 0rem;
     height: 2.5rem;
@@ -52,31 +52,61 @@ header {
 
 main {
     display: flex;
-    width: 100%;  
+    width: 100%;
+    align-items: stretch;  
 }
 
 .leftDraw {
     width: 30%;
-    min-width: 20%;
+    min-width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 2rem;
+}
+
+.box {
+    border: #129423 .2rem solid;
+    width: 20rem;
+    height: 12rem;
+    border-radius: 1rem;
+    margin: 0.5rem 1rem;
+    background-color: white;
 }
 
 .content {
     width: 70%;
-    max-width: 80%;
+    max-width: 75%;
+    padding: 0 2rem;
+    border-left: #18C72F 0.2rem solid;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.boxContent {
+    border: #129423 .2rem solid;
+    height: 40rem;
+    width: 20rem;
+    border-radius: 1.2rem;
+    padding: .5rem;
+    background-color: white;
 }
 
 p { /*temporal*/
     color: snow;
 }
+
 footer {
     position: sticky;
     bottom: 0; /*posiblemente vuela, para que el footer se quede abajo*/
-    background-color: greenyellow;
+    background-color: #094711;
     margin-top: 1.5rem;
 }
 
 footer p{
-    color: orangered;
+    color: snow;
     height: 3rem;
     min-height: 2.5rem;
     width: 100%;
