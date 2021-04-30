@@ -39,12 +39,13 @@ html {
     background-color: #78EDFA;
 }
 
-@media (min-width: 640px) {
+/*@media (min-width: 640px) {
     .c2,.c3,.c4 {
         width: 50%;
     }
-}
-@media (min-width: 1000px) {
+}*/
+
+/*@media (min-width: 1000px) {
     .container {
         width: 1000px;
         margin: 0 auto;
@@ -61,4 +62,4 @@ html {
     .c4 {
         width: 34%;
     }
-}
+}*/
