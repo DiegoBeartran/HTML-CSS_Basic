@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    background-color: black;
+    color: snow;
+}
+
+header {
+    display: flex;
+    width: 100vw;
+    min-width: 200px;
+    height: 72px;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.logo {
+    height: 70px;
+    margin: 0;
+}
+
+main {
+    display: flex;
+    width: 100vw;
+    height: 75%;
+    background-color: #121212;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100vw;
+}
+
+h1 {
+    font-size: 2rem;
+    text-align: center;
+    margin: 1rem;
+    color: snow;
+}
+
+footer {
+    display: flex;
+    background-color: grey;
+    height: 10%;
+}
