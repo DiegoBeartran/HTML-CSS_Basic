@@ -47,8 +47,82 @@ h1 {
     color: snow;
 }
 
+.teams {
+    display: flex;
+    width: 100%;
+    height: 75px;
+    align-items: center;
+}
+
+.teamName {
+    font-size: 1.5rem;
+    padding: 0 1rem;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #1c1c1c;
+}
+
+.mercedes {
+    background-color: #69E4E3;
+}
+
+/*.mercedes p {
+    color: #1c1c1c;
+}*/
+
+.redBull {
+    background-color: #121F45;
+}
+
+.redBull p, 
+.astonMartin p,
+.alpine p,
+.alphaTauri p,
+.alfaRomeo p,
+.williams p {
+    color: snow;
+    /*position: absolute;
+    right: 0;*/
+}
+
+.mclaren {
+    background-color: #ef8837;
+}
+
+/*.mclaren p {
+    color: #57A1EE;
+}*/
+
+.astonMartin {
+    background-color: #1E4C50;
+}
+
+.alpine {
+    background-color: #1a4396;
+}
+
+.ferrari {
+    background-color: #CE2B34;
+}
+
+.alphaTauri {
+    background-color: #253345;
+}
+
+.alfaRomeo {
+    background-color: #72131D;
+}
+
+.haas {
+    background-color: #fff;
+}
+
+.williams {
+    background-color: #03119A;
+}
+
 footer {
     display: flex;
     background-color: grey;
-    height: 10%;
+    width: 100vw;
 }
