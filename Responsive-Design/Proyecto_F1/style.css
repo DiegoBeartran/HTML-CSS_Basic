@@ -12,6 +12,8 @@ html {
 
 header {
     display: flex;
+    position: sticky;
+    top: 0;
     width: 100vw;
     min-width: 200px;
     height: 72px;
@@ -122,7 +124,22 @@ h1 {
 }
 
 footer {
-    display: flex;
-    background-color: grey;
+    position: sticky;
+    background-color: #121212;
+    padding: 1.2rem 0;
     width: 100vw;
+    height: 55px;
 }
+
+.socialFooter {
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.socialMedia {
+    height: 30px;
+    margin: 0rem 1.5rem 1rem;
+}
+
